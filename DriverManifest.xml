@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<driverManifest>
+  <driver
+    id="{f3f8e936-7f4c-437a-9f13-ef453b7d6f47}"
+        
+    name="XBMC"
+    author="Remote Technologies Inc."
+    copyright="Copyright 2010 Remote Technologies Inc."
+    deviceManufacturer="XBMC"
+    deviceModel="XBMC"
+    driverVersion="1.0"
+    minimumSoftwareVersion="7.2"
+    processorType="XP-8"
+    
+    configSettingsStream="ConfigSettings.xml"
+    systemEventsStream="SystemEvents.xml"
+    systemVariablesStream="SystemVariables.xml"
+    systemFunctionsStream="SystemFunctions.xml"
+    helpTextStream="instructions.rtf"
+  >
+    <processorScript stream="xbmc.js" />
+    <package>
+      <output filename="XBMC" public="false"/>
+      <description>
+      </description>
+    </package>
+  </driver>
+</driverManifest>

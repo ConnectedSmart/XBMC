@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<functions>
+  <category name="Audio Control" >
+    <function name="Toggle Mute" export="SendCmd:ToggleMute" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="XBMC.ToggleMute" hidden="true" />
+    	 <parameter name="id" type="string" default="mute" hidden="true" />
+	</function>
+    <function name="Set Volume" export="SetVolume" repeatrate="300" >
+    	 <parameter name="cmd" type="integer" default="50" min="0" max="100" />
+    	 <parameter name="cmd" type="string" default="XBMC.SetVolume" hidden="true" />
+	</function>
+  </category>
+  <category name="VideoPlayer" >
+    <function name="PlayPause" export="SendCmd:VideoPlayPause" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.PlayPause" hidden="true" />
+	</function>
+    <function name="Stop" export="SendCmd:VideoStop" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.Stop" hidden="true" />
+	</function>
+    <function name="Skip Next" export="SendCmd:VideoNext" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.SkipNext" hidden="true" />
+	</function>
+    <function name="Skip Previous" export="SendCmd:VideoPrevious" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.SkipPrevious" hidden="true" />
+	</function>
+    <function name="Big Skip Forward" export="SendCmd:VideoBigFor" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.BigSkipForward" hidden="true" />
+	</function>
+    <function name="Big Skip Backward" export="SendCmd:VideoBigBack" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.BigSkipBackward" hidden="true" />
+	</function>
+    <function name="Small Skip Forward" export="SendCmd:VideoSmallFor" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.SmallSkipForward" hidden="true" />
+	</function>
+    <function name="Small Skip Backward" export="SendCmd:VideoSmallBack" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.SmallSkipBackward" hidden="true" />
+	</function>
+    <function name="Forward" export="SendCmd:VideoFor" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.Forward" hidden="true" />
+	</function>
+    <function name="Rewind" export="SendCmd:VideoRewind" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="VideoPlayer.Rewind" hidden="true" />
+	</function>
+  </category>
+  <category name="Audio Player" >
+    <function name="PlayPause" export="SendCmd:AudioPlayPause" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.PlayPause" hidden="true" />
+	</function>
+    <function name="Stop" export="SendCmd:AudioStop" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.Stop" hidden="true" />
+	</function>
+    <function name="Skip Next" export="SendCmd:AudioNext" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.SkipNext" hidden="true" />
+	</function>
+    <function name="Skip Previous" export="SendCmd:AudioPrevious" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.SkipPrevious" hidden="true" />
+	</function>
+    <function name="Big Skip Forward" export="SendCmd:AudioBigFor" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.BigSkipForward" hidden="true" />
+	</function>
+    <function name="Big Skip Backward" export="SendCmd:AudioBigBack" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.BigSkipBackward" hidden="true" />
+	</function>
+    <function name="Small Skip Forward" export="SendCmd:AudioSmallFor" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.SmallSkipForward" hidden="true" />
+	</function>
+    <function name="Small Skip Backward" export="SendCmd:AudioSmallBack" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.SmallSkipBackward" hidden="true" />
+	</function>
+    <function name="Forward" export="SendCmd:AudioFor" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.Forward" hidden="true" />
+	</function>
+    <function name="Rewind" export="SendCmd:AudioRewind" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="AudioPlayer.Rewind" hidden="true" />
+	</function>
+  </category>
+  <category name="Menu/Cursor" >
+     <function name="Up" export="SendCmd:Up" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="Input.Up" hidden="true" />
+	</function>
+     <function name="Down" export="SendCmd:Down" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="Input.Down" hidden="true" />
+	</function>
+     <function name="Left" export="SendCmd:Left" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="Input.Left" hidden="true" />
+	</function>
+     <function name="Right" export="SendCmd:Right" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="Input.Right" hidden="true" />
+	</function>
+     <function name="Back" export="SendCmd:CBack" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="Input.Back" hidden="true" />
+	</function>
+     <function name="Select" export="SendCmd:Select" repeatrate="0" >
+    	 <parameter name="cmd" type="string" default="Input.Select" hidden="true" />
+	</function>
+ </category>
+</functions>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<events>
+	<category name="Events">
+		<event name="Power On" tag="PON" />
+		<event name="Power Off" tag="POFF" />
+		<event name="Channel Change" tag="CHAN" />
+		<event name="Song Change" tag="SONG" />
+	</category>
+</events>

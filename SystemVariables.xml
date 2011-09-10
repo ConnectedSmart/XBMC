@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<variables>
+	<category name="Player">
+	    <variable name="Volume" sysvar="Volume" type="integer" min="0" max="100" sample="50" />
+	    <variable name="Mute" sysvar="Mute" type="boolean" format="B: :Mute" />
+	    <variable name="Player Playing State" sysvar="Player" type="integer" format='L:0:Stopped:1:Paused:2:Playing:3:Forward:4:Rewind' />
+	    <variable name="Playing" sysvar="Playing" type="boolean" />
+	    <variable name="Paused" sysvar="Paused" type="boolean" />
+	    <variable name="Fast Forward" sysvar="FastForward" type="boolean" />
+	    <variable name="Rewind" sysvar="Rewind" type="boolean" />
+	    <variable name="Player Speed" sysvar="Speed" type="integer" />
+	    <variable name="Active Player" sysvar="ActivePlayer" type="integer" format='L:0:Audio:1:Picture:2:Video' />
+	    <variable name="Audio Player" sysvar="AudioPlayer" type="boolean" format='B: :Audio' />
+	    <variable name="Picture Player" sysvar="PicturePlayer" type="boolean" format='B: :Picture' />
+	    <variable name="Video Player" sysvar="VideoPlayer" type="boolean" format='B: :Video' />
+	</category>
+	<category name="Video Metadata">
+	    <variable name="Title" sysvar="Title" type="string" sample='A Very Long Movie Title' />
+	    <variable name="Chapter" sysvar="Chapter" type="integer" />
+	</category>
+	<category name="Audio Metadata">
+	    <variable name="Track Title" sysvar="AudioTitle" type="string" sample='A Very Long Song Title' />
+	    <variable name="Album" sysvar="Album" type="string" sample='Another Vision Already' />
+	    <variable name="Artist" sysvar="Artist" type="string" sample='The Tom Thomson Mystery' />
+	    <variable name="Metadata Banner" sysvar="Banner" type="string" sample='04. The Tom Thomson Mystery - A Very Long Song Title' />
+	    <variable name="Current Playlist Track" sysvar="Current" type="integer" sample='4' />
+	    <variable name="Playlist Size" sysvar="PLSize" type="integer" sample='4' />
+	</category>
+</variables>

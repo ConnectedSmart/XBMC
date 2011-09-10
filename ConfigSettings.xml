@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <category name="Connection Settings" description="The parameters that control the communication between the XP-8 and the server">
+    <setting type="string" name="TCP Address" variable="TCPAddress" default="192.168.0.100" description="IP Address of the XBMC." />
+  </category>
+	<category name="Debug Settings" description="Driver debug options" hidden="true">
+    <setting type="boolean" name="Enable Trace" variable="DebugTrace" description="Enable verbose debug output" />
+	</category>
+</configuration>
