@@ -1,0 +1,10 @@
+XBMC
+Open RTI XP Series Driver
+
+
+This driver controls the XBMC Media System through the JSON-RPC interface
+
+
+
+1.0: The initial release of the driver
+
