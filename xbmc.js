@@ -6,7 +6,9 @@ System.Print("Boxee: Initializing Driver\r\n");
 // CONSTANTS
 
 // GLOBAL VARIABLES
-var g_playerList = {audio:0, picture:2, video:3};
+
+// Not nedded in XBMC 11 (Eden)
+//var g_playerList = {audio:0, picture:2, video:3};
 
 // Comm Port Definitions
 var g_TCPAddress = Config.Get("TCPAddress");
