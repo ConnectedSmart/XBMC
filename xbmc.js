@@ -65,6 +65,7 @@ function OnCommRx(data) {
 						SystemVars.Write('Playing', true);
 						SystemVars.Write('Paused', false);
 						SystemVars.Write('Stopped', false);
+						dbg("Wow! I can do this right here?");
 						break;
 					case 'Player.PlaybackPaused':
 						SystemVars.Write('Player', 1);
